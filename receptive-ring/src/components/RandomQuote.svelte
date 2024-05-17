@@ -22,8 +22,8 @@
 </script>
 
 <div>
+  <button on:click={updateRandomQuote}>Shuffle</button>
   {#if randomKey && randomValue}
     <p>{randomKey}: {randomValue}</p>
   {/if}
-  <button on:click={updateRandomQuote}>Shuffle</button>
 </div>
